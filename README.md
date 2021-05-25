@@ -99,7 +99,7 @@
 
     如LFU算法
 
-###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/BaseOnVisitFrequency/)
+###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/BaseOnVisitFrequency/LFU.java)
 
 5.3 访问时间与频率兼顾
 
@@ -109,7 +109,7 @@
 
     如FBR、LRFU算法
 
-###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/VisitTimeAndFrequency/)
+###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/VisitTimeAndFrequency/LRFU.java)
 
 5.4 基于访问模式
 
