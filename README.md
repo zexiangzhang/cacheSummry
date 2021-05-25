@@ -27,7 +27,7 @@
 
     例如根据点赞量做人员排行榜、根据访问次数做商家排行榜
 
-###### [代码示例](https://www.baidu.com)
+###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/rankList/src/main/java/com/zzx/ranklist/user/service/impl/UserServiceImpl.java)
 
 2.3 计数器/限数器
 
@@ -91,15 +91,15 @@
 
     如LRU算法
 
-###### [代码示例](https://www.baidu.com)
+###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/BaseOnVisitTime/)
 
 5.2 基于访问频率
 
     用缓存项的被访问频率来组织缓存
 
-    如LFU、LRU-2算法
+    如LFU算法
 
-###### [代码示例](https://www.baidu.com)
+###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/BaseOnVisitFrequency/)
 
 5.3 访问时间与频率兼顾
 
@@ -109,12 +109,10 @@
 
     如FBR、LRFU算法
 
-###### [代码示例](https://www.baidu.com)
+###### [代码示例](https://github.com/zexiangzhang/cacheSummry/blob/master/algorithm/src/VisitTimeAndFrequency/)
 
 5.4 基于访问模式
 
     某些应用有较明确的的数据访问特点,进而产生与其相适应的缓存策略
 
     如专为VoD(视频点播)系统设计的A&L缓存策略,同时适应随机、顺序两种访问模式的SARC策略
-
-###### [代码示例](https://www.baidu.com)
