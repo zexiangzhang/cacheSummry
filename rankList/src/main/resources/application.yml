@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: rank_test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/rank_test?useUnicode=true&characterEncoding=UTF-8&auto&Reconnect=true&useSSL=false
+    username: root
+    password: root
+
+server:
+  port: 8081
+  servlet:
+    context-path: /rank_test
+
+mybatis-plus:
+  mapper-locations: classpath:/com/zzx/ranklist/**/mapper/xml/*.xml
+  type-aliases-package: com.zzx.ranklist
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
